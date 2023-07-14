@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- <script>
+        let testData = JSON.parse(JSON.stringify(NotesData));
+        console.log(testData); -->
+    </script>
+    <title>TEXTREE - 아이디어 정리 툴</title>
+</head>
+<body>
+    <header>
+        <div class="elm" id="username">LOGIN</div>
+        <div class="elm"><strong>TEXTREE</strong></div>
+    </header>
+    
+    <main>
+        <div class="col timeline">
+            <p>Timeline</p>
+            <div class="item">5월</div>
+            <div class="item">6월</div>
+            <div class="item">7월</div>
+        </div>
+        <div class="col list">
+            <p>새 노트 + </p>
+            <div class="item"><a href="note.html">NOTE NAME</a></div>
+            <div id="content">    
+            </div>
+            </div>
+        </div>
+        <div class="col browsing">
+            <p>살펴보기</p>
+            <div class="item">USERA 의 노트 [책 추천]</div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="main.js" type="text/javascript"></script>
+    <!-- <script>
+        const username = document.getElementById("username");
+        const notelist = document.querySelector(".list");
+        username.innerHTML = testData["user"];
+
+        testData["titles"].forEach(element => {
+            const item = document.createElement("div");
+            item.className = "item";
+            item.innerText = element;
+            notelist.append(item);
+        });
+    </script> -->
+</body>
+</html>
