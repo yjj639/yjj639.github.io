@@ -2,7 +2,7 @@ const listDiv = document.querySelector(".list");
 const username = document.getElementById("username");
 var parsedData;
 var requestURL = "https://yjj639.github.io/data.json";
-var textURL = "textree\notes\EXAMPLE.txt";
+var textURL = "https://yjj639.github.io/notes/EXAMPLE.txt";
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
